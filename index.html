@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetherium inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/StyleCB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/PR.ico.ico" type="image/x-icon">
+   
+</head>
+<body>
+    
+    <button class="toggle-btn" id="sidebarToggle">
+    ☰
+</button>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="img/Perfect_repository.png" alt="Logo Aetherium Mods" class="sidebar-logo">
+            <h3>Aetherium Mods</h3>
+            <p>Perfect Repository</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio"><i class="fas fa-home"></i> Página Principal</a></li>
+                <li><a href="#destacados"><i class="fas fa-star"></i> Destacados</a></li>
+                <li><a href="#juegos"><i class="fas fa-gears"></i>Juegos Compatibles</a></li>
+                <li><a href="#noticias"><i class="fas fa-sitemap"></i>Noticas y Updates</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i>Contactos-Informacion</a></li>
+                <li><a href="foros.html"><i class="fas fa-comments"></i>Foros</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <section id="inicio" class="hero-section">
+            <div class="hero-overlay">
+                
+                <h2>Explora miles de mods increíbles para Aetherium y más</h2>
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Buscar mods, juegos o contenido..." onkeyup="filterContent()">
+                    <button><i class="fas fa-search"></i>Buscar</button>
+                </div>
+            </div>
+        </section>
+
+<section id="destacados" class="content-section featured-mods">
+    <h3>Mods Destacados de La Semana</h3>
+    <div class="card-container">
+                <div class="content-card">
+                    <img src="img/Mod_Minecraft.jpg" alt="Mod 1">
+                    <h4>Minecraft New Biomes</h4>
+                    <p>Mod que agrega nuevos Biomas y Mobs al juego.</p>
+                    <a href="mods/MCbiomes.html" class="btn">Ver Mod</a>
+                </div>
+                <div class="content-card">
+                    <img src="img/Deltarune.jpg" alt="Mod de Ejemplo 2">
+                    <h4>Deltarune Animation Mod</h4>
+                    <p>Otro mod popular por sus animaciones frescas.</p>
+                    <a href="mods/Deltarune.html" class="btn">Ver Mod</a>
+                </div>
+                <div class="content-card">
+                    <img src="img/REPO.jpg" alt="Mod de Ejemplo 3">
+                    <h4>R.E.P.O Skins mod</h4>
+                    <p>Un mod recién actualizado que añade Skins.</p>
+                    <a href="#" class="btn">Ver Mod</a>
+                </div>
+                <div class="content-card">
+                    <img src="img/NFS_UR5.jpg" alt="Mod de Ejemplo 4">
+                    <h4>Need For Speed MW Rework</h4>
+                    <p>Graficos mejorados con nueva iluminacion y sistema diurno.</p>
+                    <a href="/mod page/MostWanted.html" class="btn">Ver Mod</a>
+                </div>
+                <div class="content-card">
+                    <img src="img/hk_mod_Example.png" alt="Mod de Ejemplo 5">
+                    <h4>Hollow Knight Silksong: HP Bar Mod</h4>
+                    <p>Un mod que añade una barra de vida al juego Silksong.</p>
+                    <a href="#" class="btn">Ver Mod</a>
+                </div>
+                </div>
+</section>
+
+<section id="juegos" class="content-section compatible-games">
+    <h3>Juegos Compatibles con Aetherium Launcher</h3>
+    <div class="card-container">
+                <div class="content-card game-card">
+                    <img src="img/Minecraft_GAME.jpeg" alt="Minecraft">
+                    <h4>Minecraft</h4>
+                    <p>Construye, lucha y Sobrevive.</p>
+                    <a href="https://www.minecraft.net/es-es/download" class="btn">Explorar</a>
+                </div>
+                <div class="content-card game-card">
+                    <img src="img/Zenless_Zone_Zero.jpg" alt="ZZZ">
+                    <h4>Zenless Zone Zero</h4>
+                    <p>Aventura y juego de rol.</p>
+                    <a href="https://zenless.hoyoverse.com/ua?&macro=1&ms=google&cid=21434094930&agid=164136662093&crid=704900086256&kwid=zenless%20zone%20zero&nw=g&mt=e&dv=c&dvmd=&pl=&tgid=kwd-1658558661104&gclid=EAIaIQobChMI59-krPLbkAMVvZdaBR23cDDSEAAYASAAEgKyyfD_BwE&gad_source=1&gad_campaignid=21434094930&gbraid=0AAAAA9wHrJq9xInjEK-koJublLpZAESam" class="btn">Explorar</a>
+                </div>
+                <div class="content-card game-card">
+                    <img src="img/Brawlhalla_banner.png" alt="Brawlhalla_game">
+                    <h4>Brawlhalla</h4>
+                    <p>Lucha como guerrero en el Valhalla.</p>
+                    <a href="https://www.brawlhalla.com/play" class="btn">Explorar</a>
+                </div>
+                 <div class="content-card game-card">
+                    <img src="img/Apex_Legends.jpg" alt="Apex_Legends_game">
+                    <h4>Apex Legends</h4>
+                    <p>Dispara y mata a tus oponentes en este Battle Royale.</p>
+                    <a href="#" class="btn">Explorar</a>
+                </div>
+                <div class="content-card game-card">
+                    <img src="img/Counter_Strike2.jpg" alt="Counter_Strike2">
+                    <h4>Counter Strike 2</h4>
+                    <p>Mata a todos los oponentes para poder ganar.</p>
+                    <a href="https://www.counter-strike.net/" class="btn">Explorar</a>
+                </div>
+                </div>
+</section>
+
+<section id="noticias" class="content-section news-updates">
+    <h3>Noticias y Actualizaciones</h3>
+    <div class="news-item">
+        <div class="news-content">
+            <h4>¡Snapshot 25w45a!</h4>
+            <p>Actualización nueva de Minecraft que añade nuevos mobs como: Camello Zombie, Momias!. Añade una nueva arma: ¡La LANZA!. Añaden armadura de Netherite para Caballos y mejoras al Nautilus</p>
+            <span>Publicado el 30 de Octubre de 2025</span>
+            <a href="#">Leer más</a>
+        </div>
+        <div class="news-image">
+            <img src="img/Snapshot_MC2.png" alt="Actualización de Minecraft">
+        </div>
+    </div>
+</section>
+    <div class="news-item">
+            <div class="news-content">
+                <h4>¡Gran Actualización del Mod HP Bar!</h4>
+                <p>Actualización del Mod HP Bar de Hollow Knight: Silksong, adaptado y mejorado para la nueva versión del juego 1.0.28891</p>
+                <span>Publicado el 15 de Octubre de 2025</span>
+                <a href="#">Leer más</a>
+            </div>
+    <div class="news-image">
+            <img src="img/hk_mod_Example.png" alt="Actualización de Aetherium">
+        </div>
+    </div>
+
+    
+<footer id="contacto" class="site-footer">
+    <div class="footer-container">
+            <div class="footer-column contact-info">
+                <img src="img/Perfect_repository.png" alt="Logo Aetherium Mods" class="footer-logo">
+                <p>Aetherium Mods</p>
+                <p>El mejor centro de Mods</p>
+                <p class="contact-detail"><i class="fas fa-envelope"></i>aetherium.mods@gmail.com</p>
+                <p class="contact-detail"><i class="fas fa-phone"></i> +57 317 124 0036</p>
+            </div>
+
+            <div class="footer-column site-links">
+                <h4>Foros y Comunidad</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-comments"></i> Foro Oficial</a></li>
+                    <li><a href="https://discord.gg/5qUNhU8M"><i class="fab fa-discord"></i> Servidor de Discord</a></li>
+                    <li><a href="https://www.instagram.com/storm_viper3/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub (Código)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column legal-info">
+                <h4>Información Legal</h4>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                    <li><a href="#">Mapa del Sitio</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aetherium Mods. Todos los derechos reservados.</p>
+        </div>
+
+</footer>
+
+
+    </main>
+
+    
+    <button id="chatbot-toggle-btn" title="Abrir Chatbot">
+        <i class="fas fa-question"></i>
+    </button>
+
+    <div id="chatbot-container" class="hidden">
+        <div id="chat-header">
+            <h3>🤖 Roni-Bot</h3>
+            <button id="chat-close-btn">&times;</button>
+        </div>
+        <div id="chat-messages">
+            </div>
+        <div id="chat-input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+    <script src="js/Script.js"></script>
+    <script src="js/Search.js"></script>
+    <script src="js/Scroll.js"></script>
+
+    
+</body>
+</html>
