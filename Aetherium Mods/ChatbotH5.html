@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Aetherium Mod</title>
+    <link rel="stylesheet" href="StyleCB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <button id="chatbot-toggle-btn" title="Abrir Chatbot">
+        <i class="fas fa-question"></i>
+    </button>
+
+    <div id="chatbot-container" class="hidden">
+        <div id="chat-header">
+            <h3>🤖 Chatbot Aetherium 💬</h3>
+            <button id="chat-close-btn">&times;</button>
+        </div>
+        <div id="chat-messages">
+            </div>
+        <div id="chat-input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
